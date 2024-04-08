@@ -11,7 +11,7 @@ canvasEl.width = window.innerWidth;
 canvasEl.height = window.innerHeight;
 const canvas = canvasEl.getContext("2d");
 
-const socket = io(`ws://localhost:5000`);
+const socket = io(`ws://localhost:1000`);
 
 let groundMap = [[]];
 let decalMap = [[]];
